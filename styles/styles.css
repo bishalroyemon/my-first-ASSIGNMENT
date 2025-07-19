@@ -33,7 +33,7 @@ ul li {
 nav{
   display: flex;
   justify-content: space-between;
-  margin: 0px 90px ;
+   margin: 0px 90px ;
 }
 .head-style{
   color: #4E47FF;
@@ -58,5 +58,88 @@ nav{
 
 .banner-description{
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+
+.content{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap:220px ;
+    margin-top:70px;
+}
+
+.title{
+  font-weight: 700;
+  font-size:30px ;
+  color:#252432;
+}
+.sub-title{
+  font-weight: 400;
+  font-size: 15px;
+  color: #252432;
+  margin-top:18px;
+}
+
+.image-content img{
+  max-width:300px;
+  height:200px;
+  border-radius: 20px;
+}
+
+
+
+.title{
+  font-weight: 800;
+  font-size: 48px;
+}
+
+
+
+
+.All-section{
+  
+  justify-content: center;
+  
+  background-color: #d7d7f1;
+    
+  width: 600px; 
+   height:250px; 
+   padding:30px 0px 10px 30px ; 
+  margin: 166px 300px 300px 350px;
+  border-radius: 20px;
+  
+}
+
+
+.user-section{
+  display:flex;
+  justify-content: center;
+  
+}
+
+.sub-section{
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+}
+.description{
+  margin-right:  67px;
+  font-size: 10px;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+.description-three{
+  margin-left: 50px;
+  font-size: 10px;
+  
+}
+
+.number{
+   margin-left: 35px;
+   color:#4E47FF;
+   font-weight: 800;
+   font-size: 40px;
+   margin-bottom: 0px;
 }
